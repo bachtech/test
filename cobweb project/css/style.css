@@ -1,0 +1,163 @@
+/*
+* {
+    border: 0.5px solid blue;
+}
+*/
+
+body {
+    background-image: url("../pics/background_lp3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+a:visited,
+a,
+ul > li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation {
+    background-color: rgb(11, 61, 94);
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-div {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-div > div > h3 {
+    margin-top: -20px;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.body-content {
+    margin-top: 0px;
+    height: calc(100vh - 320px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-holder {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../pics/lp3-girl.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 32% -60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    margin-top: 5%;
+    margin-left: 35%;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 40%;
+}
+
+.form-base {
+    height: 70%;
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+/*    align-items: center;*/
+    outline: 10px solid rgba(255, 255, 255, 0.7);
+}
+
+.col > button {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background: linear-gradient(darkblue, blue);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.try-it {
+    width: 100%;
+    height: 60px;
+    background-color: #c60202;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-div {
+    width: 150px;
+    height: 80px;
+    background-color: white;
+    margin: 10px;
+}
+
+.many-logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 2%;
+}
+
+.form-control {
+    margin-top: 5%;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(11, 61, 94);
+    height: 200px;
+    color: white;
+}
+
+a:visited,
+a,
+ul > li ul > li > a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+ul {
+    width: 100%;
+    padding: 10px 10% 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle{
+    border: 2px solid white;
+    padding: 12px;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 375) {}
+
+@media (min-width: 376)and (max-width: 1024) {}
