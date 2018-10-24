@@ -1,0 +1,425 @@
+* {
+    box-sizing: border-box;
+/*        border: 1px solid blue;*/
+}
+
+body {
+    margin: 0px;
+}
+
+
+@font-face {
+    font-family: "RenaultLifeWeb";
+    src: url("../fonts/Renault-Regular.eot");
+    src: url("../fonts/Renault-Regular.woff");
+
+
+}
+
+body {
+    font-family: "RenaultLifeWeb";
+}
+
+a:visited,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation,
+.mapHolder,
+.regForm,
+.offer {
+    height: 600px;
+    padding: 20px 8% 0px 8%;
+    margin: 10px;
+}
+
+.ze {
+    width: 80px;
+    height: 40px;
+    background-image: url("../imgs/ZE.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60% auto;
+}
+
+.logo {
+    height: 40px;
+    background-image: url("../imgs/logo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 90%;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.navbarLine {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    width: 290px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbarImg {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    background-image: url("../imgs/top.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% 68%;
+    background-size: 107% auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    font-size: 2.2em;
+
+}
+
+ul > li {
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    padding: 10px 5px;
+    list-style: none;
+}
+
+.mapHolder {
+    height: 700px;
+    display: flex;
+}
+
+.mapTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.mapTitle >p{
+    font-size: 1.4em;
+}
+
+
+.mapInfo {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.map {
+    height: 100%;
+    width: 60%;
+    background-image: url("../imgs/map.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destinationDot {
+    width: 90%;
+    height: auto;
+}
+.calcInfo > p{
+    color: deepskyblue;
+    font-size: 0.7em;
+}
+
+
+.mapSide {
+    height: 100%;
+    width: 40%;
+    text-align: left;
+    padding: 5%;
+}
+
+.lista {
+    width: 100%;
+    height: 10%;
+    border: 2px solid grey;
+    color: grey;
+}
+.lista > option{
+       position: fixed;
+}
+
+.izbor {
+    color: deepskyblue;
+}
+
+.show {
+    display: block;
+}
+
+.calc {
+    width: 80%;
+    padding: 13px;
+    background-color: deepskyblue;
+    color: white;
+    border-style: none;
+}
+.filler3,.filler2,.filler1{
+    border:2px solid deepskyblue;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: -15px;
+}
+.filler3{
+        width:20px;
+}
+.filler4{
+    width: 120px;
+    border:2px solid deepskyblue;
+     margin-top: -15px;
+    margin-bottom: 60px;
+}
+
+.regForm {
+    text-align: center;
+    height: 500px;
+    font-size: 1.4em;
+}
+
+.inputs {
+    height: 10%;
+    width: 40%;
+    margin: 2% 4%;
+    border: none;
+    border-bottom: 2px solid darkgray;
+    color: grey;
+    font-size: 0.8em;
+}
+
+.regForm > button {
+    height: 10%;
+    width: 20%;
+    margin: 2% 24% 2% 4%;
+    background-color: white;
+    border: 1px solid black;
+    color: deepskyblue;
+}
+
+.infostack {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.parentinfostack{
+    width: 100%;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.4em;
+}
+.infoElement {
+    width: 40%;
+    height: 400px;
+    padding: 3%;
+    margin: 2% 0px;
+}
+
+.infoElement>p{
+    font-size: 0.6em;
+    color: white;
+    text-align: justify;
+}
+
+.h3-1,.h3-3{
+    text-align: right; 
+}
+
+.h3-2,.h3-4{
+    text-align: left;
+    color: white;
+}
+.h3-3{
+    color: white;
+}
+
+.rightPic1 {
+    background-image: url("../imgs/4-1.jpg");
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: 180% auto;
+}
+
+.rightPic2 {
+    background-image: url("../imgs/4-3.jpg");
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: 155% auto;
+}
+
+.leftPic1 {
+    background-image: url("../imgs/4-2.jpg");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-size: 180% auto;
+}
+
+.leftPic2 {
+    background-image: url("../imgs/4-4.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 40%;
+    background-size: 160% auto;
+}
+
+.infoBack {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 85%;
+    margin-top: 150px;
+    background-color: deepskyblue;
+    background-image: url("../imgs/net.png");
+    background-size: 100% auto;
+}
+
+
+.offer {
+    text-align: center;
+}
+.offer>h2{
+    font-size: 2em;
+}
+
+.offerField {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-top: 200px;
+    background-color: deepskyblue;
+}
+
+.offerBox {
+    width: 50%;
+    height: auto;
+}
+
+.offerText>p{
+    text-align: justify;
+    font-size: 0.8em;
+    padding: 0% 6%;
+}
+.offerText>h4{
+    text-align:left;
+    font-size: 1.3em;
+    color: white;
+    padding: 0% 6%;
+}
+
+.offerButton {
+    height: 13%;
+    width: 50%;
+    margin: 2% 40% 2% 2%;
+    background-color: white;
+    border-style: none;
+}
+
+.offerBox > img {
+    width: 90%;
+    margin-top: -23%;
+    margin-right: 5%;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 9%;
+}
+
+.footer > div {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+@media (max-width: 900px) {
+    
+    
+    .inputs, .regForm>button{
+        width: 100%;
+        margin:2%;
+    }
+ 
+    .regForm{
+        margin-bottom: 150px;
+    }
+    .infostack{
+        flex-direction: column;
+    }
+    
+.infoElement {
+    width: 100%;
+    height: 350px;
+}
+    .leftText,.rightText{
+       height: auto;
+    }
+    
+    .infoElement:nth-child(7){
+        order:8;
+    }
+
+  
+.infoBack {
+    top: -0.8%;
+    }
+    
+    .parentinfostack{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .offerField{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .offerBox{
+        width: 100%;
+    }
+    .offerButton{
+        height: 50px;
+    }
+    
+    .mapInfo{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mapTitle,.map,.mapSide{
+        width: 100%;
+    }
+    
+    .mapHolder{
+        height: auto;
+    }
+    
+    
+    
+    
+@media (min-width: 1200px) {
+    .h3-1{
+        padding-bottom: 10%;
+        margin-top: -2%;
+    }
+}
